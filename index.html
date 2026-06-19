@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Crack Coffee Roastery — Your Coffee Buddy</title>
+    <meta name="description" content="We roast different coffee beans and guide you to understand their tastes. Your coffee buddy for your yummy coffee journey.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Favicon placeholder -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#" class="logo">First Crack Coffee Roastery</a>
+        <ul class="nav-links">
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#personas">Find Your Coffee</a></li>
+            <li><a href="#wholesale">Wholesale</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+        <a href="#shop" class="nav-cta">Shop Now</a>
+        <button class="mobile-menu" aria-label="Open menu">☰</button>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+        <button class="close-btn" aria-label="Close menu">✕</button>
+        <a href="#shop">Shop</a>
+        <a href="#personas">Find Your Coffee</a>
+        <a href="#wholesale">Wholesale</a>
+        <a href="#about">About</a>
+        <a href="#shop" class="btn-primary">Shop Now</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content fade-in">
+            <h1>Your Coffee Buddy for Your Yummy Coffee Journey</h1>
+            <p class="subtitle">We roast different coffee beans and guide you to understand their tastes. When you know how to taste coffee, you can truly enjoy coffee more and confidently brew your own yummy cup.</p>
+            <div class="hero-buttons">
+                <a href="#shop" class="btn-primary">Shop Coffee</a>
+                <a href="#personas" class="btn-secondary">Find Your Match</a>
+            </div>
+        </div>
+        <div class="hero-image fade-in">
+            <!-- Replace with your actual bean mascot image -->
+            <img src="assets/images/hero-mascot.png" alt="First Crack Coffee Bean Mascot — Your friendly coffee guide">
+        </div>
+    </section>
+
+    <!-- Personas Section -->
+    <section class="personas" id="personas">
+        <div class="section-header reveal">
+            <h2>What's Your Coffee Personality?</h2>
+            <p>No matter where you are in your coffee journey, we have something perfect for you.</p>
+        </div>
+        <div class="persona-grid">
+            <div class="persona-card reveal">
+                <img src="assets/images/persona-aficionado.png" alt="The Bean Aficionado character">
+                <h3>The Bean Aficionado</h3>
+                <p>You know your beans and can tell the difference between coffee from Brazil, Ethiopia, Costa Rica and Indonesia with a glance and a quick whiff.</p>
+                <a href="#shop" class="persona-link">Explore Single Origin →</a>
+            </div>
+            <div class="persona-card reveal">
+                <img src="assets/images/persona-explorer.png" alt="The Curious Explorer character">
+                <h3>The Curious Explorer</h3>
+                <p>You love discovering the unique qualities when two or more coffee beans are married together in perfect harmony.</p>
+                <a href="#shop" class="persona-link">Explore Signature Blends →</a>
+            </div>
+            <div class="persona-card reveal">
+                <img src="assets/images/persona-newbie.png" alt="The Still-Figuring-It-Out character">
+                <h3>The Still-Figuring-It-Out Drinker</h3>
+                <p>There's just so many choices! Not sure what to order? Chat with our roaster-in-residence for personalized recommendations.</p>
+                <a href="#" class="persona-link" onclick="document.querySelector('.chat-btn').click(); return false;">Chat With Us →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section class="philosophy" id="about">
+        <div class="philosophy-image reveal">
+            <img src="assets/images/philosophy.png" alt="The First Crack coffee community and roasting process">
+        </div>
+        <div class="philosophy-content reveal">
+            <h2>More Than Just Beans</h2>
+            <p>We don't just sell coffee beans. We guide you to understand their tastes and how to brew to bring out the beans' best potential.</p>
+            <p>From sourcing to roasting to your cup, we're with you every step of the way. Our mission is to make specialty coffee accessible, enjoyable, and downright yummy for everyone.</p>
+            <a href="#wholesale" class="btn-primary">Partner With Us</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="shop">
+        <div class="section-header reveal">
+            <h2>Our Current Offerings</h2>
+            <p>Freshly roasted, ethically sourced, and ready to brew.</p>
+        </div>
+        <div class="product-grid">
+            <div class="product-card reveal">
+                <img src="assets/images/brazil-santos.jpg" alt="Brazil Santos coffee beans" class="product-image">
+                <div class="product-info">
+                    <h3>Brazil Santos</h3>
+                    <p>Smooth, nutty, and chocolatey with low acidity. A classic crowd-pleaser.</p>
+                    <div class="sizes">
+                        <span class="size-tag">120g</span>
+                        <span class="size-tag">200g</span>
+                        <span class="size-tag">1kg</span>
+                    </div>
+                    <div class="product-meta">
+                        <span class="price">RM35.00</span>
+                        <span class="stock-status in-stock">In Stock</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card reveal">
+                <img src="assets/images/colombia-supremo.jpg" alt="Colombia Supremo coffee beans" class="product-image">
+                <div class="product-info">
+                    <h3>Colombia Supremo</h3>
+                    <p>Well-balanced, medium body with caramel sweetness and bright citrus notes.</p>
+                    <div class="sizes">
+                        <span class="size-tag">120g</span>
+                        <span class="size-tag">1kg</span>
+                    </div>
+                    <div class="product-meta">
+                        <span class="price">RM45.00</span>
+                        <span class="stock-status in-stock">In Stock</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card reveal">
+                <img src="assets/images/java-robusta.jpg" alt="Java Robusta coffee beans" class="product-image">
+                <div class="product-info">
+                    <h3>Java Robusta</h3>
+                    <p>Bold, strong, and full-bodied. Perfect for those who love an intense cup.</p>
+                    <div class="sizes">
+                        <span class="size-tag">1kg</span>
+                    </div>
+                    <div class="product-meta">
+                        <span class="price">RM44.00</span>
+                        <span class="stock-status sold-out">Sold Out</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wholesale Section -->
+    <section class="wholesale" id="wholesale">
+        <h2 class="reveal">Wholesale Supply</h2>
+        <p class="reveal">Partner with us for consistently great coffee. We supply cafes, offices, and events with freshly roasted beans and full brewing support.</p>
+        <div class="wholesale-options">
+            <div class="wholesale-item reveal">
+                <strong>Cafes</strong>
+                <span>Reliable supply & training</span>
+            </div>
+            <div class="wholesale-item reveal">
+                <strong>Offices</strong>
+                <span>Keep your team fueled</span>
+            </div>
+            <div class="wholesale-item reveal">
+                <strong>Events</strong>
+                <span>Pop-up & catering ready</span>
+            </div>
+        </div>
+        <a href="mailto:hello@firstcrackcoffeeroastery.com" class="btn-primary reveal" style="background: white; color: var(--coffee-dark);">Let's Talk →</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>First Crack Coffee Roastery</h3>
+                <p>Your coffee buddy for your yummy coffee journey. Based in Malaysia, roasting with love since day one.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="#shop">Single Origin</a></li>
+                    <li><a href="#shop">Signature Blends</a></li>
+                    <li><a href="#shop">Brewing Gear</a></li>
+                    <li><a href="#wholesale">Wholesale</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Learn</h4>
+                <ul>
+                    <li><a href="#">Brewing Guides</a></li>
+                    <li><a href="#">Coffee 101</a></li>
+                    <li><a href="#">Tasting Notes</a></li>
+                    <li><a href="#">Roast Levels</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="mailto:hello@firstcrackcoffeeroastery.com">Contact Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 First Crack Coffee Roastery. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Chat Button -->
+    <button class="chat-btn" aria-label="Open chat">💬</button>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
